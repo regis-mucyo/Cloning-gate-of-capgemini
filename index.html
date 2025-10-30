@@ -5,11 +5,11 @@
     <link href="./output.css" rel="stylesheet" />
     <title>Capgemini</title>
   </head>
-  <body>
+  <body class="bg-black">
     <nav class="text-white">
       <!-- First Nav -->
       <div
-        class="bg-linear-to-b from-black lg:text-white lg:text-[0.9rem] py-3"
+        class="hover:bg-black bg-linear-to-b from-black lg:text-white lg:text-[0.9rem] py-3"
       >
         <div
           class="lg:flex space-x-8 justify-center lg:justify-end lg:mx-10 hidden"
@@ -24,7 +24,7 @@
             />
           </div>
           <div class="flex space-x-1">
-            <p>Global|EN</p>
+            <p>Global | EN</p>
             <img
               src="https://img.icons8.com/?size=100&id=89777&format=png&color=FFFFFF"
               alt="icons8"
@@ -95,14 +95,14 @@
           </div>
         </section>
       </div>
-      <div class="md:hidden lg:hidden absolute -z-10 top-0">
+      <div class="md:hidden lg:hidden relative -z-10 bottom-[7rem]">
         <img
           src="https://www.capgemini.com/wp-content/uploads/2025/10/2025-10-24_IQ_dotcom-banner_2880x1800px_v168.jpg"
           alt=""
         />
       </div>
       <div
-        class="lg:absolute -z-10 hidden md:block lg:block md:absolute md:top-0"
+        class="lg:relative -z-10 hidden md:block lg:block md:relative md:bottom-[11rem] lg:bottom-[16.5rem]"
       >
         <video width="100%" muted autoplay loop>
           <source
@@ -112,7 +112,7 @@
         </video>
       </div>
       <div
-        class="bg-blue-500/85 w-fit p-4 mx-5 lg:px-10 absolute top-40 md:top-96 lg:top-[28rem] space-y-5 rounded-sm lg:py-28 lg:ml-12"
+        class="bg-blue-500/85 w-fit p-4 mx-5 lg:px-10 absolute top-[7.5rem] md:top-64 lg:top-[20rem] space-y-5 rounded-sm lg:py-20 lg:ml-12"
       >
         <p class="font-bold text-[2.4rem] lg:text-4xl">
           Keeping AI on the ball
@@ -124,5 +124,47 @@
         </p>
       </div>
     </nav>
+    <!-- Highlight section-->
+    <section class="text-3xl text-white mx-5 lg:mx-12 mt-14">
+      <p class="font-medium mb-5 lg:mb-7">Highlight</p>
+      <div class="grid grid-cols-1 gap-6 md:grid md:grid-cols-3">
+        <!-- Highligh 1 -->
+        <div class="space-y-5">
+          <img
+            src="https://www.capgemini.com/wp-content/uploads/2025/10/lady-with-glasses.png?w=500&amp;quality=70"
+            alt=""
+          />
+          <p class="lg:text-2xl">From pilot programs to power users</p>
+          <p class="text-[1.1rem] font-thin">
+            With AI adoption now mainstream, discover how organizations are
+            scaling their advantage
+          </p>
+        </div>
+        <!-- Highligh 2 -->
+        <div class="space-y-5">
+          <img
+            src="https://www.capgemini.com/wp-content/uploads/2025/10/CG-banner_Aiman-Keshav_1000-x-625.jpg?w=500&amp;quality=70"
+            alt=""
+          />
+          <p class="lg:text-2xl">Capgemini acquires WNS</p>
+          <p class="text-[1.1rem] font-thin">
+            Accelerating our vision for Agentic AI-powered Intelligent
+            Operations
+          </p>
+        </div>
+        <!-- Highligh 3 -->
+        <div class="space-y-5">
+          <img
+            src="https://www.capgemini.com/wp-content/uploads/2024/02/PR-financial-image.jpg?w=500&amp;quality=70"
+            alt=""
+            class="w-fit lg:w-88"
+          />
+          <p class="lg:text-2xl">Q3 2025 performance</p>
+          <p class="text-[1.1rem] font-thin">
+            Learn about our Q3 2025 revenues
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
